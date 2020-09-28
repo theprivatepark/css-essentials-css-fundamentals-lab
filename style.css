@@ -3,3 +3,45 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* uppdate header */
+h1{
+  text-align: center;
+}
+
+/* center image */
+img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto 
+  }
+ 
+/* shrink image caption */
+nav, figcaption {
+  text-align: center;
+}
+
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: aquamarine;
+}
+
+/* update text block. a hard width of 800px and center the text in there.*/ 
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin: auto;
+}
+
+/* make #details section horizontal */
+#details div{
+  float: left;
+  background-color: yellow;
+  text-align: center;
+  width: 25%;
+
+}
+
+/* clean up div at bottom. all should have same background color,
+centered text, occupy 25% of the width of the bottom row */
